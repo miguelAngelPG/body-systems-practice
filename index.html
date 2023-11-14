@@ -14,6 +14,49 @@
         <link rel="stylesheet" href="src/style.css">
     </head>
     <body>
+        <header>
+            <div class="flex flex-wrap items-center justify-between px-5 py-4 sm:px-10">
+              <a href="#" class="flex items-center">
+                    <img src="src/assets/img/bscw-logo-colores-v-01-1.png" class="h-8" alt="Body systems logo" />
+              </a>
+              <button id="menuMobile" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-red hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+                    <svg class="w-5 h-5" aria-hidden="true" fill="none" viewBox="0 0 17 14">
+                        <path stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                    </svg>
+              </button>
+              <nav class="hidden w-full" id="navbar">
+                <ul class="font-medium flex flex-col justify-center items-stretch p-4 mt-4">
+                    <li class="text-center">
+                        <a href="#" class="block py-2 px-3 text-gray-900 [font-family:'Quicksand',Helvetica] font-bold rounded hover:bg-gray-100">
+                            ¿Por qué nosotros?
+                        </a>
+                    </li>
+                    <li class="text-center">
+                        <a href="#" class="block py-2 px-3 text-gray-900 [font-family:'Quicksand',Helvetica] font-bold rounded hover:bg-gray-100">
+                            Plataforma digital de wellness
+                        </a>
+                    </li>
+                    <li class="text-center">
+                        <a href="#" class="block py-2 px-3 text-gray-900 [font-family:'Quicksand',Helvetica] font-bold rounded hover:bg-gray-100">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="text-center">
+                        <a href="#" class="block py-2 px-3 text-gray-900 [font-family:'Quicksand',Helvetica] font-bold rounded hover:bg-gray-100">
+                            Servicios
+                        </a>
+                    </li>
+                    <li class="py-2 px-3 w-full h-12 mt-4 bg-primaryRed rounded-full hover:bg-red-700 flex items-center justify-center">
+                        <a href="#" class="block py-2 px-3 text-white">
+                            Sign up
+                        </a>
+                    </li>
+                </ul>
+              </nav>
+            </div>
+        </header>
+
+        
         <div id="app"></div>
         <script type="module" src="./src/main.js"></script>
     </body>
