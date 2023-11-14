@@ -12,13 +12,21 @@ export default {
       'xl': '1280px',
       '2xl': '1536px',
     },
+    fontFamily: {
+      'Quicksand': ['Quicksand', 'Helvetica'],
+      'DM_Sans': ['DMSans', 'Helvetica'],
+    },
     extend: {
       colors: {
         textblack: "var(--textblack)",
         textgray: "var(--textgray)",
         textwhite: "var(--textwhite)",
         primaryRed: "var(--primary-red)",
+        purple: "var(--primary-purple)",
       },
+      lineHeight: {
+        '11': '3.1rem',
+      }
     },
   },
   plugins: [],
