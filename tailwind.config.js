@@ -23,6 +23,7 @@ export default {
         textwhite: "var(--textwhite)",
         primaryRed: "var(--primary-red)",
         purple: "var(--primary-purple)",
+        lightgray: "var(--lightgray)",
       },
       lineHeight: {
         '11': '3.1rem',
