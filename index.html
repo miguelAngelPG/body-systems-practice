@@ -173,11 +173,26 @@
             </div>
         </section>
 
-        <section class="py-14 px-12 bg-[#EEEEEE]">
+        <section id="pricing" class="py-14 px-12 bg-[#EEEEEE] sm:py-20 sm:px-24 md:px-32 md:py-28">
             <h3 class="text-4xl text-center text-textblack leading-10 mb-10 font-bold font-DM_Sans">El camino al éxito</h3>
 
-            <div class="flex flex-col gap-5 mb-10">
-                <di v class="bg-white rounded-md grid justify-items-center py-8 border-primaryRed border-2">
+            <div class="flex flex-col gap-5 mb-10 md:flex-row">
+                <div class="hidden bg-white rounded-md md:grid justify-items-center py-8 md:w-full">
+                    <div class="bg-[#EEEEEE] rounded-full w-[70px] h-[70px] flex items-center justify-center mb-5">
+                        <img class="w-[33px] h-[33px] m-auto" src="src/assets/img/campaign.png" alt="">
+                    </div>
+                    <h5 class="font-bold text-2xl leading-8 font-DM_Sans text-textblack mb-10">Simple plan</h5>
+                    <div class="gap-3 flex flex-col items-center mb-10">
+                        <p class="text-[#999999] font-bold text-base leading-6 font-DM_Sans">Lorem deterruisset</p>
+                        <p class="text-[#999999] font-bold text-base leading-6 font-DM_Sans">Hinc lorem</p>
+                        <p class="text-[#999999] font-bold text-base leading-6 font-DM_Sans">Autem molestiae</p>
+                        <p class="text-[#999999] font-bold text-base leading-6 font-DM_Sans">Mei mazim</p>
+                        <p class="text-[#999999] font-bold text-base leading-6 font-DM_Sans">Feugait electram</p>
+                    </div>
+                    <h6 class="text-purple font-bold text-[56px] leading-[64px] font-DM_Sans mb-5">$9</h6>
+                    <button class="bg-transparent text-purple border-purple border-2 leading-6 font-DM_Sans text-base rounded-full py-3 px-20">Buy</button>
+                </div>
+                <div class="bg-white rounded-md grid justify-items-center py-8 border-primaryRed border-2 md:w-full">
                     <div class="bg-purple rounded-full w-[70px] h-[70px] flex items-center justify-center mb-5">
                         <img class="w-[33px] h-[33px] m-auto" src="src/assets/img/new-releases.png" alt="">
                     </div>
@@ -191,9 +206,38 @@
                     </div>
                     <h6 class="text-purple font-bold text-[56px] leading-[64px] font-DM_Sans mb-5">$24</h6>
                     <button class="bg-purple text-white leading-6 font-DM_Sans text-base rounded-full py-3 px-20">Buy</button>
-                </di>
+                </div>
+                <div class="hidden bg-white rounded-md md:grid justify-items-center py-8 md:w-full">
+                    <div class="bg-[#EEEEEE] rounded-full w-[70px] h-[70px] flex items-center justify-center mb-5">
+                        <img class="w-[33px] h-[33px] m-auto" src="src/assets/img/campaign.png" alt="">
+                    </div>
+                    <h5 class="font-bold text-2xl leading-8 font-DM_Sans text-textblack mb-10">Pro plan</h5>
+                    <div class="gap-3 flex flex-col items-center mb-10">
+                        <p class="text-[#999999] font-bold text-base leading-6 font-DM_Sans">Lorem deterruisset</p>
+                        <p class="text-[#999999] font-bold text-base leading-6 font-DM_Sans">Hinc lorem</p>
+                        <p class="text-[#999999] font-bold text-base leading-6 font-DM_Sans">Autem molestiae</p>
+                        <p class="text-[#999999] font-bold text-base leading-6 font-DM_Sans">Mei mazim</p>
+                        <p class="text-[#999999] font-bold text-base leading-6 font-DM_Sans">Feugait electram</p>
+                    </div>
+                    <h6 class="text-purple font-bold text-[56px] leading-[64px] font-DM_Sans mb-5">$38</h6>
+                    <button class="bg-transparent text-purple border-purple border-2 leading-6 font-DM_Sans text-base rounded-full py-3 px-20">Buy</button>
+                </div><div class="hidden bg-white rounded-md md:grid justify-items-center py-8 md:w-full">
+                    <div class="bg-[#EEEEEE] rounded-full w-[70px] h-[70px] flex items-center justify-center mb-5">
+                        <img class="w-[33px] h-[33px] m-auto" src="src/assets/img/trophy.png" alt="">
+                    </div>
+                    <h5 class="font-bold text-2xl leading-8 font-DM_Sans text-textblack mb-10">Enterprise</h5>
+                    <div class="gap-3 flex flex-col items-center mb-10">
+                        <p class="text-[#999999] font-bold text-base leading-6 font-DM_Sans">Lorem deterruisset</p>
+                        <p class="text-[#999999] font-bold text-base leading-6 font-DM_Sans">Hinc lorem</p>
+                        <p class="text-[#999999] font-bold text-base leading-6 font-DM_Sans">Autem molestiae</p>
+                        <p class="text-[#999999] font-bold text-base leading-6 font-DM_Sans">Mei mazim</p>
+                        <p class="text-[#999999] font-bold text-base leading-6 font-DM_Sans">Feugait electram</p>
+                    </div>
+                    <h6 class="text-purple font-bold text-[56px] leading-[64px] font-DM_Sans mb-5">$99</h6>
+                    <button class="bg-transparent text-purple border-purple border-2 leading-6 font-DM_Sans text-base rounded-full py-3 px-20">Buy</button>
+                </div>
             </div>
-            <div class="flex flex-row gap-3 w-full justify-center">
+            <div class="flex flex-row gap-3 w-full justify-center md:hidden">
                 <img class="w-2" src="src/assets/img/oval-2.png" alt="">
                 <img class="w-2" src="src/assets/img/oval-2.png" alt="">
                 <img class="w-2" src="src/assets/img/oval-2.png" alt="">
