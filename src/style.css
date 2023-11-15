@@ -11,3 +11,12 @@
     --primary-red: rgba(255, 10, 10, 1);
     --primary-purple: rgba(60, 16, 83, 1);
 }
+
+body{
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+.grid-template-columns{
+    grid-template-columns: repeat(3, auto);
+}
